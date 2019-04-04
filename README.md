@@ -2,7 +2,7 @@
 ###  # Rocket_Elevators_REST_API :
 <h4> URL links is http://rocket-elevator-api.azurewebsites.net 
 
-<h5> For Retrieving an Battery for a Specified Battery use:
+For Retrieving an Battery for a Specified Battery use:
 GET METHOD http://rocket-elevator-api.azurewebsites.net/api/battery/{id}
 
 For Retrieving the Current Status of all Battery use:
