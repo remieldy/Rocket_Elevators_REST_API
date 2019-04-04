@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{226AF1C4-D3F2-4C1D-ABFF-BF4C3786CADA}|Default">
+  <MonoDevelop.Ide.ItemProperties.rocket__elevator__api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="rocket_elevator_api/Models/Rocket_elevatorContext.cs">
+    <Files>
+      <File FileName="rocket_elevator_api/Controllers/ElevatorController.cs" Line="24" Column="14" />
+      <File FileName="rocket_elevator_api/Controllers/BatteryController.cs" Line="22" Column="27" />
+      <File FileName="rocket_elevator_api/Controllers/BuildingController.cs" Line="26" Column="40" />
+      <File FileName="rocket_elevator_api/Controllers/LeadController.cs" Line="30" Column="22" />
+      <File FileName="rocket_elevator_api/Controllers/ColumnController.cs" Line="20" Column="32" />
+      <File FileName="rocket_elevator_api/Models/Lead.cs" Line="22" Column="2" />
+      <File FileName="rocket_elevator_api/Models/Column.cs" Line="21" Column="1" />
+      <File FileName="rocket_elevator_api/Models/Rocket_elevatorContext.cs" Line="29" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="rocket_elevator_api" expanded="True">
+            <Node name="rocket_elevator_api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Rocket_elevatorContext.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

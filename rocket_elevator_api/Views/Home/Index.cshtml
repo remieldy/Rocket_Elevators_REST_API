@@ -1,0 +1,28 @@
+﻿@model IEnumerable<rocket_elevator_api.Models.Elevator>
+@{
+    ViewData["Title"] = "Elevator Page";
+}
+
+<h2>Films</h2>
+<table class="table">
+    <tr>
+    <tr>
+        <th>ID</th>
+        <th>Serial Number</th>
+        <th>Status</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serial_number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+        </tr>
+    }
+</table>

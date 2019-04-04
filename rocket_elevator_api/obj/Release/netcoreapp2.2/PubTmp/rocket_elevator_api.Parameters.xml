@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="rocket-elevator-api" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/marc/Projects/rocket_elevator_api/rocket_elevator_api/obj/Release/netcoreapp2\.2/PubTmp/Out/$" />
+  </parameter>
+</parameters>
