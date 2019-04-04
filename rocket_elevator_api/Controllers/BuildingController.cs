@@ -32,7 +32,7 @@ namespace rocket_elevator_api.Controllers
         public async Task<ActionResult<IEnumerable<Building>>> GetElevatorStatus()
         {
             return await _context.buildings
-                .FromSql("SELECT b.* FROM buildings AS b JOIN batteries bat ON b.id = bat.building_id " +
+                .FromSql("SELECT DISTINCT b.* FROM buildings AS b JOIN batteries bat ON b.id = bat.building_id " +
                 	"JOIN columns c ON bat.id = c.battery_id " +
                 	"JOIN elevators e ON c.id = e.column_id " +
                 	"WHERE bat.status = 'Intervention' OR c.status = 'Intervention' OR e.status = 'Intervention' " +
