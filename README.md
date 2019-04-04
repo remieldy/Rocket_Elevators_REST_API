@@ -3,7 +3,7 @@
 <h4> URL links is http://rocket-elevator-api.azurewebsites.net 
   
 
-To Retrieving an Battery for a Specified Battery use:
+- To Retrieving an Battery for a Specified Battery use:
 GET METHOD -- http://rocket-elevator-api.azurewebsites.net/api/battery/{id}
 
 To Retrieving the Current Status of all Battery use:
