@@ -2,7 +2,8 @@
 ###  # Rocket_Elevators_REST_API :
 <h4> URL links is http://rocket-elevator-api.azurewebsites.net 
   
-
+- to test the api on a interface : marcantoinetanguay.com (PUT method not working, GET method work, GET by ID by clicking on a row work     but not working again for the same table when going back to get all data)
+  
 - To Retrieving an Battery for a Specified Battery use:
 GET METHOD -- http://rocket-elevator-api.azurewebsites.net/api/battery/{id}
 
