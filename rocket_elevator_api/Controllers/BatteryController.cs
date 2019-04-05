@@ -21,8 +21,7 @@ namespace rocket_elevator_api.Controllers
 
             if (_context.batteries.Count() == 0)
             {
-                // Create a new TodoItem if collection is empty,
-                // which means you can't delete all TodoItems.
+
                 _context.batteries.Add(new Battery { Id = 1 });
                 _context.SaveChanges();
             }

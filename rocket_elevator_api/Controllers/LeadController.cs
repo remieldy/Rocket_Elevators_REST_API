@@ -26,7 +26,7 @@ namespace rocket_elevator_api.Controllers
                     _context.SaveChanges();
                 }
             }
-            // GET leads last 30 days -> not customer
+            // GET leads last 30 days -> customer
             [HttpGet]
             public async Task<ActionResult<IEnumerable<Lead>>> GetLead()
             {

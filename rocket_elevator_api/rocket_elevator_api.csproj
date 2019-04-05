@@ -17,10 +17,10 @@
     <Compile Remove="Model\EmptyClass.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="wwwroot\index.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Update="Views\Shared\Index.cshtml">
+    <Content Update="Views\Index.cshtml">
+      <IncludeInPackage>false</IncludeInPackage>
+    </Content>
+    <Content Update="wwwroot\Index.cshtml">
       <IncludeInPackage>false</IncludeInPackage>
     </Content>
   </ItemGroup>
